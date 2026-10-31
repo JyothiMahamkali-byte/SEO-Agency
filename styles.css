@@ -1,0 +1,568 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.head {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.head p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.head a:hover {
+    color: aqua;
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.logo span {
+    color: red;
+}
+
+.banner-section {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 15px;
+    border-radius:20px ;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.text:hover{
+    width: 90%;
+    color: #FFD700 ;
+}
+
+.text h3 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 20px;
+}
+.container {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.container > h1 {
+    text-align: center;
+     margin-bottom: 30px;
+   font-size: 35px;
+}
+
+.image1 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.image1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text1 {
+    width: 100%;
+    background-color: #e2f9ef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.text1:hover{
+    height: 120px;
+    background-color: #a6ecf8;
+}
+
+.text1 h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.text1 h4:hover {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: rgb(25, 10, 113);
+}
+
+.text1 p {
+    font-size: 16px;
+    color: #555;
+}
+.text1 p:hover {
+    font-size: 17px;
+    color: #4d4848;
+}
+
+.para,
+.para1 {
+    width: 90%;
+    margin: 40px auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.para span,
+.para1 span {
+    color: red;
+    font-weight: bold;
+}
+
+.services {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.services > h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.services > p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.container1:hover {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: #f8e4e4;
+    border-radius: 10px;
+}
+.service {
+    width: 50%;
+}
+
+.service .green {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.service h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.service p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.image2 {
+    width: 50%;
+}
+
+.image2 img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.strategy {
+    width: 90%;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.strategy h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.strategy p {
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.strategy img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.process {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.process > h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.row {
+        width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container2:hover {
+   
+    background-color: rgb(238, 67, 232);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.container2 p:hover{
+    color: #a6b5f8;
+}
+.container2 h5:hover{
+    color: #FFD700;
+}
+.container2 .white {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.container2 .white:hover{
+    background-color: #ccf2e8;
+    color: #000000;
+}
+
+.container2 h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.faq {
+    width: 90%;
+    margin: 70px auto;
+   
+}
+
+.faq > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container3 {
+    width: 100%;
+    padding: 25pxpx;
+    border: 1px solid #a6ecf8;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:0 3px rgb(192, 239, 239);
+    background-color: rgb(224, 239, 239);
+}
+.container3:hover {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #a6aaf8;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:0 3px rgb(192, 239, 239);
+    background-color: rgb(232, 242, 185);
+}
+
+
+.container3 h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: rgb(5, 5, 115);
+background-color: rgb(218, 226, 250);
+border-radius: 10px;
+padding: 10px;
+}
+
+.container3 p {
+    color: #555;
+    line-height: 1.7;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+}
+
+.footer p {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer a:hover {
+    color: aqua;
+}
+
+.footer .name {
+    color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer .red {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact {
+    width: 90%;
+    margin: 30px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .head {
+        padding: 10px 20px;
+    }
+
+    .nav {
+        gap: 18px;
+
+        padding: 15px 20px;
+    }
+
+    .nav a {
+        font-size: 13px;
+    }
+
+    .text h3 {
+        font-size: 35px;
+    }
+
+    .container1 {
+        gap: 25px;
+    }
+
+}
+
+@media (max-width: 740px) {
+
+    .head {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .head a {
+        margin-left: 5px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .banner-section {
+        height: 400px;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .text h3 {
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 92%;
+        margin: 50px auto;
+    }
+
+    .container > h1 {
+        font-size: 28px;
+    }
+
+    .image1 img {
+        height: 280px;
+    }
+
+    .services {
+        width: 92%;
+       
+    }
+
+    .container1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .image2 {
+        width: 100%;
+    }
+
+    .image2 img {
+        height: 250px;
+    }
+
+    .strategy {
+        width: 92%;
+        padding: 20px;
+    }
+
+    .process {
+        width: 92%;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .faq {
+        width: 92%;
+    }
+
+    footer {
+        padding: 30px 15px;
+    }
+}
+
